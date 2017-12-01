@@ -5,6 +5,9 @@ Project template without premade assets (except for placeholders and fonts). Lud
 Doesn't contain 3d party libraries, will a package manager in the future (Unity seems to be making one atm).
 Works for Unity 2017.02
 
+## Structure
+/unity-project-folder/ is the unity project folder. Create or use the folders outside /unity-project-folder/ to store your asset editor files (blender or photoshop files etc).
+
 ## Guide
 * Clone or fork it
 * Go through the checklists below
