@@ -2,7 +2,7 @@
 
 ## Summary
 Project template without premade assets (except for placeholders and fonts). Ludum dare compo friendly.
-Doesn't contain 3d party libraries, will add some package manager in the future (Unity seems to be making one atm).
+Doesn't contain 3d party libraries, will a package manager in the future (Unity seems to be making one atm).
 Works for Unity 2017.02
 
 ## Guide
@@ -14,38 +14,38 @@ Works for Unity 2017.02
 ## IMPORTANT Checklist
 ### In the beginning
 
-## Per User
-[ ] (OPTIONAL) Move content in "GameEngine Data" to your Unity installation to override default C# script
+#### Per User
+* (Optional) Move content in "GameEngine Data" to your Unity installation to override default C# script
 
-## Per Team 
-[ ] Change /unity-project-folder/ name
-[ ] Decide folder structure (!_Game_ByAssetType vs !_Game_ByEntity) Rename to !_Game, delete unwanted one  
-[ ] Decide what thirdparty libraries to use      
-[ ] Update .gitignore in /unity-project-folder/ to include or exlude third party libraries. Prefix with ! to flip folders
-[ ] Don't commit PAID libraries if going open source     
-[ ] Set Company name in "Project Settings > Player Settings" to team name   
-[ ] Set Product name in "Project Settings > Player Settings" to project name   
-[ ] Decide Time Settings (Default timestep is 0.02, project is set to 0.04)    
-[ ] Decide script structures (Update default c# monobehaviour-script if needed)
+#### Per Team 
+- [ ] Change /unity-project-folder/ name
+- [ ] Decide folder structure (!_Game_ByAssetType vs !_Game_ByEntity) Rename to !_Game, delete unwanted one   
+- [ ] Decide what thirdparty libraries to use      
+- [ ] Update .gitignore in /unity-project-folder/ to include or exlude third party libraries. Prefix with ! to flip folders
+- [ ] Don't commit PAID libraries if going open source     
+- [ ] Set Company name in "Project Settings > Player Settings" to team name   
+- [ ] Set Product name in "Project Settings > Player Settings" to project name   
+- [ ] Decide Time Settings (Default timestep is 0.02, project is set to 0.04)    
+- [ ] Decide script structures (Update default c# monobehaviour-script if needed)
  
 ### At the end
 
-## Per Team Before Final build
-[ ] Backup project     
-[ ] Set final Company name in "Project Settings > Player Settings"     
-[ ] Set final Product name in "Project Settings > Player Settings"      
-[ ] Remove paid tools      
-[ ] Double check paid tools from commit history if going public    
-[ ] Remove placeholders       
-[ ] WebGL: Remove exceptions handling      
+#### Per Team Before Final build
+- [ ] Backup project     
+- [ ] Set final Company name in "Project Settings > Player Settings"     
+- [ ] Set final Product name in "Project Settings > Player Settings"      
+- [ ] Remove paid tools      
+- [ ] Double check paid tools from commit history if going public    
+- [ ] Remove placeholders       
+- [ ] WebGL: Remove exceptions handling      
 
-### Optional Performance
-[ ] Merge meshes    
-[ ] Texture atlases    
-[ ] Share materials
-[ ] Remove empty Update methods
-[ ] Cache components
-[ ] Profile
+### Optimization Checklist
+- [ ] Remove empty Update methods
+- [ ] Cache components
+- [ ] Profile
+- [ ] Merge meshes    
+- [ ] Texture atlases    
+- [ ] Share materials
 --------
 
 ## Content ##
@@ -62,8 +62,11 @@ Works for Unity 2017.02
 ### unity-project
 The root of the unity project, rename it
 
-### GameEngine Data
-Optional stuff to copy into your unity engine installation folder (not project folder!) so it will affect all your projects using that engine. Contains default script-templates and such.
+### Templates/Default scripts
+Default monobehaviour scripts to copy into your unity engine installation folder (not the project folder!) so it will affect all your projects using that engine. Contains default script-templates and such.
+
+### Templates/Scenes
+Default scene packages (Main menu, credits, default level etc).
 
 ### Assets/Placeholders TBA
 Premade placeholders, must be removed and replaced before the last build.
@@ -71,7 +74,7 @@ Premade placeholders, must be removed and replaced before the last build.
 -----
 
 ## List of Thirdparty Libraries and tools
-Recommended thirdparty libraries and tools. All thirdparty folders are listed in the .gitignore file. Comment out those you want to commit or flip with !. 
+Recommended thirdparty libraries and tools. All thirdparty folders are listed in the .gitignore file. Comment out those you want to commit or flip with an exclamation mark (!). 
 
 DON'T commit PAID content, remember that paid content will still exist in git-history after you remove them.
 
