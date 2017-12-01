@@ -40,7 +40,9 @@ Works for Unity 2017.02
 - [ ] Remove paid tools      
 - [ ] Double check paid tools from commit history if going public    
 - [ ] Remove placeholders       
-- [ ] WebGL: Remove exceptions handling      
+- [ ] Add Unity version used to the readme
+- [ ] Add Third party tools versions to the readme
+- [ ] WebGL: Remove exceptions handling
 
 ### Optimization Checklist
 - [ ] Remove empty Update methods
@@ -53,16 +55,9 @@ Works for Unity 2017.02
 
 ## Content ##
 
-### Settings
-#### Project Settings > Editor
-- Version Control > Mode: Visible Meta Files
-- Asset Serialization > Mode: Force Text
+## Folders
 
-#### Project Settings > Time
-- Fixed Timestep: 0.04 (Default: 0.02)
-- Maximum Particle Timestep: 0.04 (Default: 0.02)
-
-### unity-project
+### unity-project-folder
 The root of the unity project, rename it
 
 ### Templates/Default scripts
@@ -71,9 +66,17 @@ Default monobehaviour scripts to copy into your unity engine installation folder
 ### Templates/Scenes
 Default scene packages (Main menu, credits, default level etc).
 
-### Assets/Placeholders TBA
+### unity-project-folder/Assets/Placeholders TBA
 Premade placeholders, must be removed and replaced before the last build.
 
+### Settings
+#### Project Settings > Editor
+- Version Control > Mode: Visible Meta Files
+- Asset Serialization > Mode: Force Text
+
+#### Project Settings > Time
+- Fixed Timestep: 0.04 (Default: 0.02)
+- Maximum Particle Timestep: 0.04 (Default: 0.02)
 -----
 
 ## List of Thirdparty Libraries and tools
@@ -81,7 +84,7 @@ Recommended thirdparty libraries and tools. All thirdparty folders are listed in
 
 DON'T commit PAID content, remember that paid content will still exist in git-history after you remove them.
 
-#### DOTween Pro
+### DOTween Pro
 An Animation and tweening library.   
 PAID  
 https://www.assetstore.unity3d.com/en/#!/content/32416   
@@ -90,7 +93,7 @@ Or Use the Free version (below)
 * Demigiant/DOTweenPro
 * Resources/DOTweenSettings.asset
 
-#### DOTween
+### DOTween
 An Animation and tweening library.  
 Free   
 https://www.assetstore.unity3d.com/en/#!/content/27676    
@@ -99,7 +102,7 @@ Or use the paid version (above)
 * Demigiant/DOTween
 * Resources/DOTweenSettings.asset
 
-#### ProBuilder Basic
+### ProBuilder Basic
 3D Level tool.   
 Free    
 https://www.assetstore.unity3d.com/en/#!/content/11919    
@@ -107,7 +110,7 @@ https://www.assetstore.unity3d.com/en/#!/content/11919
 * ProCore/ProBuilder
 
 
-#### Unity Toolbag
+### Unity Toolbag
 Scripting Tools   
 Free   
 https://github.com/nickgravelyn/UnityToolbag     
@@ -120,7 +123,7 @@ Omitted: SimpleSpriteAnimation, SortingLayer, SyncSolution
 * UnityToolbag-master/StandardPaths
 * UnityToolbag-master/UnityConstants
 
-####  Consolation
+###  Consolation
 View console ingame    
 Free    
 https://github.com/mminer/consolation    
@@ -129,6 +132,6 @@ https://github.com/mminer/consolation
 
 ---------
 
-# Todo
+## Todo
 * Add fonts (Fonts are allowed!)
 * Add Package manager (unity seems to be making one atm)
