@@ -30,6 +30,7 @@ Works for Unity 2017.02
 - [ ] Set Product name in "Project Settings > Player Settings" to project name   
 - [ ] Decide Time Settings (Default timestep is 0.02, project is set to 0.04)    
 - [ ] Decide script structures (Update default c# monobehaviour-script if needed)
+- [ ] If you're using a newer unity version, check if .gitignore is still valid; 
  
 ### At the end
 
@@ -60,6 +61,9 @@ Works for Unity 2017.02
 ### unity-project-folder
 The root of the unity project, rename it
 
+### Unity .gitignore
+The .gitignore for the Unity project structure is in /unity-project-folder/
+
 ### Templates/Default scripts
 Default monobehaviour scripts to copy into your unity engine installation folder (not the project folder!) so it will affect all your projects using that engine. Contains default script-templates and such.
 
@@ -80,7 +84,7 @@ Premade placeholders, must be removed and replaced before the last build.
 -----
 
 ## List of Thirdparty Libraries and tools
-Recommended thirdparty libraries and tools. All thirdparty folders are listed in the .gitignore file. Comment out those you want to commit or flip with an exclamation mark (!). 
+Recommended thirdparty libraries and tools. All thirdparty folders SHOULD (double check) be listed in the .gitignore file. Comment out those you want to commit or flip with an exclamation mark (!). 
 
 DON'T commit PAID content, remember that paid content will still exist in git-history after you remove them.
 
