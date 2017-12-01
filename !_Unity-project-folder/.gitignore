@@ -1,3 +1,31 @@
+#====== Custom Assets ========#
+#ProBuilder
+/Assets/ProCore/
+
+#TextMesh Pro
+/Assets/TextMesh Pro/
+
+#DOTween
+/Assets/Demigiant/
+/Assets/Demigiant/DemiLib/
+/Assets/Demigiant/DOTween/
+
+#DOTweenPro
+/Assets/Demigiant/DOTweenPro/
+/Assets/Demigiant/DOTweenPro Examples/
+
+#Package Uninstaller
+/Assets/Movinarc/
+
+#Consolation
+/Assets/consolation-master/
+
+#Unity Toolbag
+/Assets/UnityToolbag-master/
+
+#for Unity 2017_0.2
+#https://github.com/github/gitignore/blob/master/Unity.gitignore 
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
