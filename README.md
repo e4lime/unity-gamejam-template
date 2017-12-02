@@ -2,7 +2,7 @@
 
 ## Summary
 Project template without premade assets (except for placeholders and fonts). Ludum dare compo friendly.
-Doesn't contain 3d party libraries, will a package manager in the future (Unity seems to be making one atm).
+Doesn't contain 3d party libraries, will add package manager in the future (Unity seems to be making one atm).
 Works for Unity 2017.02
 
 ## Structure
