@@ -9,7 +9,6 @@ Works for Unity 2017.02
 /unity-project-folder/ is the unity project folder. Create or use the folders outside /unity-project-folder/ to store your asset editor files (blender or photoshop files etc).
 
 ## Guide
-* Download or fork it
 * Go through the checklists below
 * Import DefaultScene.unitypackage for each new scene
 * Import MainMenu.unitypackage for a mainmenu scene template
